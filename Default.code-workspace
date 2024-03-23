@@ -1,0 +1,14 @@
+{
+    "settings": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "[sql]": {
+            "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+        },
+        "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}

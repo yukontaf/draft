@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "Databricks - Workspace",
+			"uri": "wsfs:/"
+		}
+	],
+	"settings": {
+		"sqltools.useNodeRuntime": true,
+		"github.copilot.advanced": {},
+		"python.languageServer": "Jedi",
+		"bigqueryRunner.projectId": "analytics-147612",
+		"workbench.colorTheme": "Ayu Light",
+		"sqltools.highlightQuery": false,
+		"sqltools.connections": [
+			{
+				"name": "BigQuery",
+				"authenticator": "SERVICE_ACCOUNT",
+				"location": "eu",
+				"previewLimit": 50,
+				"driver": "BigQuery",
+				"keyfile": "/Users/gsokolov/Library/CloudStorage/GoogleDrive-gsokolov@ourgapps.com/My Drive/Code/service_account_key.json"
+			}
+		],
+		"bigqueryRunner.defaultDataset.projectId": "analytics-147612",
+		"dbt.queryLimit": 500,
+		"databricks.python.envFile": "${workspaceFolder}/.env",
+		"python.envFile": "${workspaceFolder}/.databricks/.databricks.env",
+		"jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+		"jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+	}
+}
